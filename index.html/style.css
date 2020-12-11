@@ -46,10 +46,19 @@ nav a {
     text-align: center;
     border:1px solid black;
 }
-video {
-    height: auto;
-    width: auto;
+.videobox {
+    display: flex;
+    position: relative;
+    width: 2000px;
+    height: 700px;
+    overflow: hidden;
+    margin: auto;
 }
+video {
+    position: absolute;
+}
+/* 비디오 감싸는 박스 만들고 크기 지정. position:absolute 주고 중앙 배치
+높이를 박스에 맞추고 overflow.hidden(내가 맞춘거에서 튀어나간거 숨겨주는 거 */
 .카피문구 {
     position: relative;
     text-align: center;
